@@ -1,0 +1,166 @@
+body {
+
+    padding           : 0;
+    margin            : 0;
+    display           : block;
+    -ms-overflow-style: none;
+    scrollbar-width   : none;
+    scroll-behavior   : smooth;
+}
+
+@font-face {
+    font-family:'Futura' ;
+    src: url('FUTURAMEDIUM.TTF');
+}
+
+
+body::-webkit-scrollbar {
+
+    display: none;
+
+}
+
+#a1,#a2{
+text-decoration: none;
+position: fixed;
+font-size: 1.4vw;
+z-index: 3;
+top:7vw;
+margin-left: 1vw;
+color: white;
+font-family:'Futura';
+transition:  ease-in-out 300ms;
+
+}
+
+#a1:hover,#a2:hover{
+
+    transition: ease-in-out 300ms;    
+    color:crimson 
+
+}
+
+
+.a2{
+
+top:1vw
+
+}
+
+
+.ppic {
+     
+    box-shadow   : 1.2vw 1.2vw 1px 0px #f1adad, -1.2vw -1.2vw 1px 0px rgb(252, 221, 165);
+    width        : 12vw;
+    height       : 12vw;
+    position     : relative;
+    bottom       : 3vw;
+    left         : 40vw;
+    border       : solid 4px white;
+    border-radius: 10%;
+    transform    : rotate(-8deg);
+
+}
+
+
+.donut {
+
+    width : 25vw;
+    height: 25vw;   
+    transform: rotate(20deg);
+    position : relative;
+    left     : 3vw
+
+}
+
+
+.maintab {
+    background-color: rgb(255, 246, 228);
+
+    box-shadow   : 20px 20px 21px 2px grey;
+    border-left  : solid 1px;
+    border-top   : solid 1px;
+    border-color : #ffe4c4;
+    border-radius: 17px;
+    width        : 50vw;
+    height       : 20vw;
+    position     : relative;
+    left         : 27vw;
+    bottom       : 10vw;
+
+}
+
+
+.sidebar {
+    background-color: moccasin;
+    position        : fixed;
+    top:0;
+    width           : 0vw;
+    height          : 100%;
+    
+    transition      : ease 525ms;
+    z-index         : 2;
+}
+
+#triangle {
+    display: none;
+}
+
+.text1 {
+    position   : relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size  : 2.5vw;
+    left       : 2vw;
+
+}
+
+#icon {
+    position: fixed;
+    left: 1vw;
+    width     : 2.5vw;
+    height    : 3vw;
+    transition: ease 280ms;
+    filter:contrast(120%);
+    top:0.5vw
+}
+
+
+
+
+.wing {
+
+    width    : 19vw;
+    transform: rotate(-8deg);
+
+    position: relative;
+}
+
+#wing2 {
+
+    left  : 20vw;
+    bottom: 15vw;
+
+}
+
+#wing1 {
+    left  : 40vw;
+    bottom: 6vw;
+
+}
+
+.winged {
+    position: relative;
+    bottom  : 19vw;
+
+
+}
+
+
+.coma {
+    width: 60vw;
+    height:25vw;
+    position: relative;
+    bottom  : 37vw;
+    right   : 26vw;
+}
